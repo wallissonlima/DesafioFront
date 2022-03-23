@@ -1,0 +1,115 @@
+/* Geral */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  border: nome;
+}
+input {
+  width: 5%;
+}
+
+label {
+  text-align: center;
+}
+
+body {
+  padding-top: 2%; /* 5% da tela*/
+  background-color: rgb(123, 10, 204);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2f3576;
+  border-radius: 23px 23px 55% 45% / 16% 17% 125px 51px;
+  padding-bottom: 3%;
+}
+
+header h1 {
+  width: 50%;
+  color: white;
+  padding: 2rem;
+  font-weight: 200;
+  font-size: 1.8rem;
+}
+i {
+  font-size: 11rem;
+  padding-right: 10%;
+  color: #191847;
+}
+
+/*Form */
+#main-container {
+  display: flex;
+  background-color: #fff;
+  width: 500px;
+  flex-direction: column;
+  border-radius: 5%;
+}
+
+.full-box,
+.tight,
+.mailbox {
+  padding: 0 7%;
+  padding: 0px 7px 4% 7%;
+}
+
+.titulo {
+  padding: 3% 0% 4% 0%;
+}
+
+#mailbox,
+textarea {
+  line-height: 120%;
+  padding: 10%;
+  width: 90%;
+  resize: none;
+  border-radius: 7px;
+  background-color: #dde3e8;
+}
+
+#button-button1 {
+  padding: 0px 14px;
+  font-size: 2.3rem;
+  border-radius: 15%;
+  background-color: #2f3576;
+  color: white;
+}
+
+#label {
+  border-radius: 6px;
+  width: 9%;
+}
+
+#button-button2 {
+  padding: 0px 9px;
+  font-size: 2.3rem;
+  border-radius: 15%;
+  background-color: #2f3576;
+  color: white;
+}
+
+#button-button3 {
+  background-color: #2f3576;
+  color: white;
+  width: 22%;
+  font-size: 1.3rem;
+  border-radius: 7px;
+}
+
+.click {
+  display: flex;
+  justify-content: flex-end;
+  padding: 8%;
+  background-color: #dde3e8;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}

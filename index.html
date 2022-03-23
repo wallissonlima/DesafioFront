@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário para compra de Pacote de adesivo</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/slyle.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="main-container">
+      <header>
+        <h1>Formulário para compra de <strong>Pacote de adesivo</strong></h1>
+        <i class="bx bx-package"></i>
+        <!-- <img class="img" src="img/caixa.png" alt="logo" /> -->
+      </header>
+
+      <form id="register-form" action="javascript: enviar();">
+        <div class="full-box">
+          <h2 class="titulo">Quais adesivos:</h2>
+          <div>
+            <input
+              type="checkbox"
+              name="React"
+              class="check-react"
+              onclick="myFunction('.check-react')"
+              value="false"
+            />
+            <label for="React">React</label>
+          </div>
+
+          <div>
+            <input
+              type="checkbox"
+              name="vue"
+              class="check-vue"
+              onclick="myFunction('.check-vue')"
+              value="false"
+            />
+            <label for="vue">Vue</label>
+          </div>
+
+          <div>
+            <input
+              type="checkbox"
+              name="angular"
+              class="check-angular"
+              onclick="myFunction('.check-angular')"
+              value="false"
+            />
+            <label for="angular">Angular</label>
+          </div>
+        </div>
+
+        <div class="tight">
+          <h2 class="titulo">Quantos adesivos de cada?</h2>
+          <button id="button-button1" type="button">-</button>
+          <input
+            id="label"
+            type="text"
+            name="quantidade"
+            size="100"
+            placeholder="0"
+            class="input-quantidade"
+          />
+          <button id="button-button2" type="button">+</button>
+        </div>
+
+        <div class="mailbox">
+          <h2 class="titulo">Obesevações:</h2>
+          <textarea
+            class="textarea-obs"
+            placeholder="Alguma dúvida? Recado?"
+          ></textarea>
+        </div>
+
+        <div class="click">
+          <input type="submit" id="button-button3" value="Enviar" />
+        </div>
+      </form>
+    </div>
+
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
